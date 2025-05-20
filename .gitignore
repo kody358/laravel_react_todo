@@ -1,0 +1,30 @@
+# Docker関連
+.docker/
+docker-compose.override.yml
+
+# その他
+.DS_Store
+.idea
+.vscode 
+# Laravel関連
+/api/.env
+/api/.env.backup
+/api/.phpunit.result.cache
+/api/node_modules
+/api/public/hot
+/api/public/storage
+/api/storage/*.key
+/api/vendor
+/api/npm-debug.log
+/api/yarn-error.log
+
+# React関連
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/node_modules
+/frontend/dist
+/frontend/build
+/frontend/.react-router
